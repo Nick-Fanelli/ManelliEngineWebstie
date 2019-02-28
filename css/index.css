@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
 body {
     margin: 0;
     height: 100vh;
@@ -5,34 +7,48 @@ body {
     overflow-x: hidden;
 }
 
-.hoverable:hover {
-    cursor: pointer;
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 1em 0 0 0;
+    padding: 0;
+    font-family: 'Comfortaa', 'Roboto', sans-serif;
 }
 
-.logo-full-sml {
-    width: 300px;
-    height: auto;
+header button {
+    text-align: center;
 }
 
-#nav {
-    background-color: #cccccc30;
-    height: 9vh;
+#downloadButtonWrapper {
+    margin: 3em 0 0 0;
+    text-align: center;
 }
 
-#nav p {
-    display: inline-block;
+header #subtext {
+    margin: .25em 0 0 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header button p {
+    font-size: 1.25rem;
+    padding: 0;
     margin: 0;
-    padding: 1.625vw 2vw 0 2vw;
-    font-family: 'Montserrat', 'Lato', sans-serif, serif;
-    -webkit-transition-duration: .3s;
-    transition-duration: .3s;
+    font-family: 'Comfortaa', sans-serif;
 }
 
-#nav p:hover {
-    color: #00000071;
+header button {
+    border: solid 2px #178efd;
+    background-color: transparent;
+    height: 5.5em;
+    width: 32em;
+    color: #178efd;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
 }
 
-#nav img {
-    position: absolute;
-    padding: 1vw 0 0 2.75vw;
+header button:hover {
+    color: #ffffff;
+    background-color: #178efd;
 }

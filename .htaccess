@@ -1,0 +1,15 @@
+# mod_rewrite start:
+
+RewriteEngine on
+
+# Change the command/request from the server
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check for file in directory
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Show the page without the .html extension
+
+RewriteRule ^(.*)$ $1.html [NC,L] 
