@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-
 body {
-    overlfow-x: hidden;
+    overflow-x: hidden;
     margin: 0;
 }
 
@@ -21,7 +20,7 @@ button:focus {
 
 #nav {
     background-color: #cccccc30;
-    height: 9vh;
+    height: 4em;
 }
 
 #nav p {
@@ -29,6 +28,8 @@ button:focus {
     margin: 0;
     padding: 1.625vw 2vw 0 2vw;
     font-family: 'Montserrat', 'Lato', sans-serif, serif;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
 }
