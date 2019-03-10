@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="images/logos/logo_icon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/download.css">
+    <link rel="stylesheet" href="css/fonts.css">
 
     <title>Dowloads | Manelli Engine</title>
 </head>
@@ -17,7 +19,7 @@
         class="hoverable" alt="Logo"
         onclick="document.location.href = '/'">
 
-        <p style="padding-left: 10vw" class="hoverable"
+        <p style="padding-left: 10vw" class="hoverable" id="firstnavitem"
         onclick="document.location.href = '/'">Home</p>
 
         <p class="hoverable"
@@ -28,6 +30,21 @@
 
         <p class="hoverable"
         onclick="document.location.href = 'gettingstarted'">Getting Started</p>
+    </section>
+
+    <section id="main">
+        <h1>Dowloads</h1>
+        <a href="manelliengine/ManelliEngineAlpha.jar.zip" download="Manelli Engine Beta">
+            <button id="downloadbutton" style="margin-top: 15vh;"><p>Download As Zip (Mac and Windows)</p></button>
+        </a>
+        <br>
+        <a href="manelliengine/ManelliEngineAlpha.jar.rar" download="Manelli Engine Beta">
+            <button id="downloadbutton"><p>Download as Rar (Windows)</p></button>
+        </a>
+        <br>
+        <a href="manelliengine/ManelliEngineAlpha.jar.tar.gz" download="Manelli Engine Beta">
+            <button id="downloadbutton"><p>Download as tar.g (Linux)</p></button>
+        </a>
     </section>
 </body>
 </html>

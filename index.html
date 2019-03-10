@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Website for Manelli Engine where you can download and learn how to use Manelli Engine for free!">
+    <meta name="keywords" content="Game Engine, Tutorials, Manelli, Manelli Egnine, Manelli Game Engine, How to use, How To, Tutorials for Manelli Game Engine">
+    <meta name="author" content="Nick Fanelli">
+
     <link rel="shortcut icon" href="images/logos/logo_icon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/fonts.css">
 
     <title>Manelli Engine</title>
 </head>
@@ -17,7 +22,7 @@
         class="hoverable" alt="Logo"
         onclick="document.location.href = '/'">
 
-        <p style="padding-left: 10vw" class="hoverable"
+        <p style="padding-left: 10vw" class="hoverable" id="firstnavitem"
         onclick="document.location.href = '/'">Home</p>
 
         <p class="hoverable"
@@ -33,12 +38,23 @@
         <h1>Manelli Engine</h1>
         <p id="subtext">The Game Engine You Can Trust!</p>
         <p id="downloadButtonWrapper">
-            <a href="manelliengine/ManelliEngineAlpha.jar.zip" download="ManelliEngineAlpha">
-                <button class="hoverable">
-                    <p>Download <strong>Manelli Engine Alpha</strong></p>
-                </button>
+            <a href="dowload">
+                <button class="hoverable"><p>Download</p></button>
             </a>
         </p>
     </header>
+    <section id="started">
+        <h1>Tutorials</h1>
+        <div id="videos">
+            <span class="video" id="video1"></span>
+            <span class="video"></span>
+        </div>
+        <div id="youtubelink">
+            <a href="https://www.youtube.com/channel/UC2BHuSd83dn_bSsjJYfMvPw?" target="_blank"><button><p>More Videos</p></button></a>
+        </div>
+    </section>
+    <footer>
+        <h2>© Manelli Games 2019</h2>
+    </footer>
 </body>
 </html> 

@@ -1,0 +1,35 @@
+#main {
+    text-align: center;
+}
+
+#main a {
+    margin: 0;
+    text-decoration: none;
+}
+
+#main button {
+    margin: 4vh 0 0 0;
+    width: 30vw;
+    height: auto;
+    background: transparent;
+    border: solid 1px #272626;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+}
+
+#main button:hover {
+    cursor: pointer;
+    background-color: #313131;
+    color: #ffffff;
+}
+
+#main button p {
+    font-size: 1.25rem;
+}
+
+#main h1 {
+    margin: 5vh 0 0 0;
+    font-family: 'Comfortaa';
+    font-size: 4rem;
+}
+
