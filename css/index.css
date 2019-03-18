@@ -6,7 +6,10 @@ body {
 }
 
 header {
-    height: 60vh;
+    height: 90vh;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 ::-webkit-scrollbar {
@@ -14,10 +17,11 @@ header {
 }
 
 header h1 {
+    color: #eef0e8;
     font-size: 4rem;
     text-align: center;
-    margin: 25vh 0 0 0;
-    padding: 0;
+    margin: 0 0 0 0;
+    padding: 25vh 0 0 0;
     font-family: 'Comfortaa', 'Roboto', sans-serif;
 }
 
@@ -31,6 +35,7 @@ header button {
 }
 
 header #subtext {
+    color: #eef0e8;
     margin: .75em 0 0 0;
     text-align: center;
     font-size: 2rem;
@@ -45,31 +50,32 @@ header button p {
 }
 
 header button {
-    border: solid 1px #272626;
+    border: solid 1px #eef0e8;
     background-color: transparent;
     height: 5.5em;
     width: 32em;
-    color: #272626;
+    color: #eef0e8;
     -webkit-transition-duration: .4s;
     transition-duration: .4s;
 }
 
 header button:hover {
-    color: #ffffff;
-    background-color: #313131;
+    color: #313131;
+    border: solid 1px #ffffff8e;
+    background-color: #ffffff8e;
 }
 
 #started {
-    background-color: #229ce2;
-    height: 95vh;
+    background-color: #ACB7A8;
+    height: 115vh;
 }
 
 #started h1 {
     font-family: 'Indie Flower', monospace;
-    color: #ffffff;
+    color: #EEF0E8;
     font-size: 6rem;
     text-align: center;
-    margin: 4vh 0 0 0;
+    margin: 0;
 }
 
 footer {
@@ -102,7 +108,7 @@ footer h2 {
     width: 30vw;
     height: auto;
     color: #ffffff;
-    background-color: #1094e0;
+    background-color: #D4D9D2;
     border: none;
 }
 
@@ -122,91 +128,54 @@ footer h2 {
     width: 560px;
 }
 
-@media only screen and (max-width: 1139px) {
-    #started {
-        height: 140vh;
-    }
-}
-
 @media only screen and (max-width: 1024px) {
     #started {
-        height: 100vh;
+        height: 200vh;
     }
 }
 
-@media only screen and (max-width: 487px) {
+@media only screen and (max-width: 768px) {
+    #started {
+        height: 200vh;
+    }
+}
+
+@media only screen and (max-width: 425px) {
     header h1 {
-        margin-top: 6vh;
         font-size: 3rem;
-    }
-    
-    header #subtext {
-        font-size: 1.2em;
-    }
-
-    header {
-        height: 50vh;
-    }
-
-    #started h1 {
-        font-size: 4rem;
-    }
-
-    #started {
-        height: 120vh;
-    }
-}
-
-@media only screen and (max-width: 414px) {
-    #started {
-        height: 130vh;
-    }
-
-    #started button {
-        width: 75vw;
-    }
-}
-
-@media only screen and (max-width: 411px) {
-    #started button {
-        width: 75vw;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    header h1 {
-        margin-top: 3em;
-        font-size: 2.5rem;
+        margin: 2em 0 0 0;
     }
 
     header #subtext {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
+        margin-top: 2em;
     }
 
     header button {
-        width: 75vw;
-        height: 10vh;
-    }
-
-    header {
-        height: 58vh;
+        margin: 2em 0 0 0;
     }
 
     #started h1 {
         font-size: 3rem;
     }
 
-    #started {
-        height: 140vh;
-    }
-
     #started button {
         width: 75vw;
+        height: auto;
     }
-}
 
-@media only screen and (max-width: 320px) {
-    #started {
-        height: 155vh;
+    @media only screen and (max-width: 320px) {
+        header h1 {
+            font-size: 2rem;
+        }
+
+        header #subtext {
+            font-size: 1rem;
+        }
+
+        header button {
+            width: 80vw;
+            height: 10vh;
+        }
     }
 }

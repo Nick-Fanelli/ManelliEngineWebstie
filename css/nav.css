@@ -21,7 +21,7 @@ button:focus {
 }
 
 #nav {
-    background-color: #cccccc30;
+    background-color: #eef0e8;
     height: 4em;
 }
 
@@ -45,7 +45,7 @@ button:focus {
     padding: .9em 0 0 2.75vw;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 425px) {
     #nav p {
         display: none;
     }
