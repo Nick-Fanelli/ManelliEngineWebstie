@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    width: 100vw;
     height: 90vh;
     background-image: url("../images/background.jpg");
     background-position: center;
@@ -128,6 +129,61 @@ footer h2 {
     width: 560px;
 }
 
+#abouttag {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #E9EBD5;
+    border-top-left-radius: 25px;
+}
+
+#abouttag p {
+    font-family: 'Indie Flower', 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin: 0.5em 0 0 0;
+}
+
+#aboutline {
+    width: 100vw;
+    position: absolute;
+    bottom: 0%;
+    height: 15px;
+    background-color: #E9EBD5;
+    border-top-left-radius: 25px;
+}
+
+#about {
+    background-color: #E9EBD5;
+    height: 80vh;
+    text-align: center;
+}
+
+#about h1 {
+    margin: 0;
+    padding: .55em 0 0 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Anonymous Pro", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+#firstabout {
+    margin: 3em 0 0 0 !important;
+}
+
+#about p {
+    font-size: 1.5rem;
+    margin: 1.5em 0 0 0;
+    font-family: 'Anonymous Pro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fancytext {
+    font-family: cursive !important;
+} 
+
 @media only screen and (max-width: 1024px) {
     #started {
         height: 200vh;
@@ -140,10 +196,11 @@ footer h2 {
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 495px) {
     header h1 {
         font-size: 3rem;
-        margin: 2em 0 0 0;
+        margin: 0;
+        padding: 2em 0 0 0;
     }
 
     header #subtext {
@@ -164,9 +221,10 @@ footer h2 {
         height: auto;
     }
 
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 370px) {
         header h1 {
             font-size: 2rem;
+            margin: 0;
         }
 
         header #subtext {
@@ -177,5 +235,15 @@ footer h2 {
             width: 80vw;
             height: 10vh;
         }
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .video {
+        width: 100vw;
+    }
+
+    #video1 {
+        margin-right: 0;
     }
 }
